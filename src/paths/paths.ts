@@ -1,1 +1,1 @@
-export const BASE_URL="https://demoqa.com/swagger#/Account";
+export const BASE_URL="https://demoqa.com";

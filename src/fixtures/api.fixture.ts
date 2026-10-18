@@ -26,7 +26,6 @@ export const test=base.extend<APIFixture>({
         const createResData : CreateRes=await createUserRes.json();
         expect(createResData.username).toBe(user.userName);
         const userID=createResData.userID;
-        console.log(userID);
         const username=createResData.username;
         const getTokenRes = await createUserContext.post("/Account/v1/GenerateToken",{
             data: user
